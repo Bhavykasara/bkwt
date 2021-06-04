@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Kwitter (Rooms)</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pattaya&family=Reggae+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style(2).css">
+        <script src="main(2).js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color: black;font-family: 'Orbitron', sans-serif;">
+        <center>
+          <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger" style="margin-left: 50%;"> Log out</button>
+          <h1 id="head_h1">Kwitter</h1>
+          <img src="https://img.icons8.com/cotton/2x/instagram.png" id="head_img">
+          <section id="main">
+               <h2 id="welcome"></h2>
+               <hr>
+               <label id="oplabel">#Add_room</label><br>
+               <input id="roomname" placeholder="Enter the #room name here"><br>
+               <button id="add" onclick="addRoom()">Add room</button>
+               <h2 id="info">#Trending Rooms</h2>
+               <h2 id="info2">Click the names given bellow go to a room</h2>
+               <div id="output"></div>
+          </section>
+        </center>
+    </body>
+</html>

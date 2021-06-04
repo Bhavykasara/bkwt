@@ -1,0 +1,72 @@
+#head_h1 {
+    color:chartreuse;
+    font-size: 50px;
+}
+
+#head_img {
+    width: 10%;
+}
+
+#main {
+    border: solid 10px white;
+    margin-left: 16%;
+    margin-right: 15%;
+    opacity: 0.93;
+    backdrop-filter: blur(5px);
+}
+
+#welcome {
+    color:chartreuse;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
+#roomname {
+    color:chartreuse;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+#info {
+    color:chartreuse;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#inf {
+    color:chartreuse;
+    font-size: 40px;
+}
+
+hr {
+    color: white;
+}
+
+#sending {
+    border: 3px white solid;
+    margin-top: 10%;
+}
+
+#send {
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#message {
+    width: 40%;
+}
+
+#URL {
+    width: 40%;
+}
+
+#chat {
+    color:white;
+}
+
+.mySection {
+    color:white;
+}

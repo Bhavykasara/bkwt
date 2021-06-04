@@ -1,0 +1,57 @@
+#head_h1 {
+    color:chartreuse;
+    font-size: 50px;
+}
+
+#head_img {
+    width: 10%;
+}
+
+#main {
+    border: solid 10px white;
+    margin-left: 16%;
+    margin-right: 15%;
+    backdrop-filter: blur(5px);
+}
+
+#oplabel {
+    color:chartreuse;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+#roomname {
+    margin-top: -80px;
+    width: 30%;
+    border-radius: 5%;
+    height: 30px;
+}
+
+#info {
+    font-size: 40px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color:chartreuse;
+}
+
+#info2 {
+    font-size: 30px;
+    color:chartreuse;
+    margin-bottom: 2%;
+}
+
+#output {
+    color:chartreuse;
+    border: 10px white solid;
+    font-size: 30px;
+}
+
+#welcome {
+    color:chartreuse;
+    font-size: 40px;
+}
+
+#add {
+    color:black;
+    font-size: 30px;
+}
